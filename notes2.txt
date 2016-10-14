@@ -1,0 +1,36 @@
+Init
+git init is used to create a repository
+
+Status
+git status tells us the state of our working directory
+
+Add
+git add tells git to track specific files or folders
+
+Ignoring Things
+.gitignore files tells git what to completely ignore
+
+git clone
+crear una copia del repositorio
+git clone path
+
+git commit -m "Commit message"
+para commit y enviar el archivo a HEAD
+
+git push origin master
+para enviar cambios a tu repositorio remoto
+reemplazar master por la rama a la que quieres enviar tus cambios
+
+git checkout -b feature_x
+crear una nueva rama llamada feature_x y cambiate a ella
+
+git checkout master
+volver a la rama primcipal
+
+git branch -d feature_x
+y borra la rama
+
+una rama nueva no estará disponible para los demás a menos que subas (push) la rama a tu repositorio remoto
+git push origin <branch>     ??????????????????????????????????????
+
+commit logs
